@@ -4,17 +4,23 @@
  * and open the template in the editor.
  */
 package principal;
-
+/**
+ * Escaner de variables.
+ */
 import java.util.Scanner;
 
 /**
  *
- * @author Ronald
+ * @author Ronald Jefrey Moreno Mora
+ * PROGRAMACION II
+ * SIS 301
+ * Universidad de Cundinamarca - Facatativa
  */
 public class Main {
 
     /**
-     * @param args the command line arguments
+     * 
+     * @param args 
      */
     public static void main(String[] args) {
         
@@ -340,6 +346,9 @@ public class Main {
         }while(1==1);
        
     }
+    /**
+     * Metodo para la impresion del menu de los productos.
+     */
     static void opcionesTextoMenu(){
         System.out.println("Opciones del Producto.");
         System.out.println("1.Comprar.");
